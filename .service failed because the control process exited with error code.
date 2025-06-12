@@ -1,0 +1,15 @@
+[0;1;31m×[0m jenkins.service - Jenkins Continuous Integration Server
+     Loaded: loaded (]8;;file://centos9-42/usr/lib/systemd/system/jenkins.service/usr/lib/systemd/system/jenkins.service]8;;; [0;1;38;5;185mdisabled[0m; preset: [0;1;38;5;185mdisabled[0m)
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Thu 2025-06-12 10:44:09 EDT; 2min 14s ago
+    Process: 8303 ExecStart=/usr/bin/jenkins [0;1;31m(code=exited, status=1/FAILURE)[0m
+   Main PID: 8303 (code=exited, status=1/FAILURE)
+        CPU: 840ms
+
+Jun 12 10:44:09 centos9-42 systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+Jun 12 10:44:09 centos9-42 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+Jun 12 10:44:09 centos9-42 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Jun 12 10:44:09 centos9-42 systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 5.
+Jun 12 10:44:09 centos9-42 systemd[1]: Stopped Jenkins Continuous Integration Server.
+Jun 12 10:44:09 centos9-42 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Start request repeated too quickly.[0m
+Jun 12 10:44:09 centos9-42 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+Jun 12 10:44:09 centos9-42 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
